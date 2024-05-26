@@ -553,15 +553,18 @@ button {
 }
 .subscribe-form {
     display: flex;
+    gap: 24px;
 }
 .label-text {
     font-family: 'Roboto', sans-serif;
-    display: block;
+
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #fff;
+
+    margin-bottom: 16px;
 }
 
 .subscribe-label {
@@ -574,7 +577,7 @@ button {
     border-radius: 4px;
     width: 264px;
     height: 40px;
-    background-color: #2e2f42;
+    background-color: transparent;
     color: #fff;
 
     padding: 8px 16px;
@@ -592,7 +595,7 @@ button {
 .btn-sub {
     border-radius: 4px;
     padding: 8px 24px;
-    width: 165px;
+    min-width: 165px;
     height: 40px;
     background-color: #4d5ae5;
 
@@ -663,7 +666,7 @@ button {
 .form {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 24px;
 
     /* outline: 1px solid orange; */
 
@@ -684,10 +687,7 @@ button {
     line-height: 1.16667;
     letter-spacing: 0.04em;
 }
-.label-text {
-    margin-left: 0;
-    margin-right: auto;
-}
+
 .form-input::placeholder {
     color: #8e8f99;
 }
