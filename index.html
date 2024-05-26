@@ -633,9 +633,99 @@
                         </li>
                     </ul>
                 </div>
+                <div class="subscribe">
+                    <form action="" class="subscribe-form" name="subscribe">
+                        <label class="subscribe-label" name="subscribe-label">
+                            <span class="label-text">Subscribe</span>
+
+                            <div class="box-subscribe">
+                                <input
+                                    type="email"
+                                    class="subscribe-input"
+                                    name="subscribe-input"
+                                    placeholder="E-mail"
+                                />
+                                <button type="submit" class="btn-sub">
+                                    Subscribe
+                                    <svg wigth="24" height="24" class="send">
+                                        <use
+                                            href="./images/icons.svg#send"
+                                        ></use>
+                                    </svg>
+                                </button>
+                            </div>
+                        </label>
+                        <label for="btn-subscribe" class="btn-subscribe">
+                        </label>
+                    </form>
+                </div>
             </div>
         </footer>
 
         <!-- #endregion FOOTER -->
+        <!-- #region MODAL -->
+        <div class="modal is-open">
+            <div class="modal-overlay">
+                <form class="form" name="username" autocomplete="on">
+                    <span class="form-title"
+                        >Leave your contacts and we will call you back</span
+                    >
+                    <label class="form-label">
+                        Name
+                        <svg class="modal-svg" width="12" height="12">
+                            <use href="./images/icons.svg#person"></use>
+                        </svg>
+                        <input
+                            class="form-input"
+                            type="text"
+                            name="user-name"
+                            id="user-name"
+                            placeholder=""
+                            autofocus
+                            value=""
+                        />
+                    </label>
+                    <label class="form-label">
+                        Phone
+                        <input
+                            class="form-input"
+                            type="tel"
+                            name="phone-user"
+                            id="phone-user"
+                            placeholder=""
+                        />
+                    </label>
+                    <label class="form-label">
+                        Email
+                        <input
+                            class="form-input"
+                            type="email"
+                            name="email-user"
+                            id="email-user"
+                            placeholder=""
+                        />
+                    </label>
+                    <label class="form-label">
+                        Description
+                        <textarea
+                            class="form-input"
+                            name="description"
+                            placeholder="Text input"
+                            rows="10"
+                        >
+                        </textarea>
+                    </label>
+                    <label class="form-label policy">
+                        <input type="checkbox" name="privaci" id="privaci" />
+                        I accept the terms and conditions of the
+                        <span class="privacy-policy"
+                            ><a href="">Privacy Policy</a></span
+                        >
+                    </label>
+                    <button class="btn-hero" type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+        <!-- #endregion MODAL -->
     </body>
 </html>
