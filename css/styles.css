@@ -607,7 +607,7 @@ button {
     color: #fff;
 
     display: flex;
-    gap: 16px;
+
     justify-content: center;
     align-items: center;
 
@@ -627,6 +627,7 @@ button {
 }
 .send {
     fill: #fff;
+    margin-left: 16px;
 }
 /* #endregion FOOTER */
 
