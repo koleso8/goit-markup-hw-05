@@ -361,8 +361,8 @@ button {
     justify-content: center;
     align-items: center;
 }
-.team-item a:focus,
-.team-item a:hover {
+.circule:focus,
+.circule:hover {
     background-color: #404bbf;
 }
 
@@ -521,7 +521,6 @@ button {
     /* outline: solid orange; */
     display: flex;
     gap: 16px;
-    align-items: ;
 }
 .media-item {
     width: 40px;
