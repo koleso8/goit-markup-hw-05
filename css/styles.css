@@ -361,8 +361,8 @@ button {
     justify-content: center;
     align-items: center;
 }
-.team-list a:focus,
-.team-list a:hover {
+.team-item a:focus,
+.team-item a:hover {
     background-color: #404bbf;
 }
 
