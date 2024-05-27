@@ -732,6 +732,7 @@
                             class="comment-input"
                             name="user-comment"
                             id="user-comment"
+                            aria-valuetext="0"
                             placeholder="Text input"
                             rows="10"
                         >
@@ -741,19 +742,24 @@
                     <div class="privaci-box">
                         <input
                             type="checkbox"
-                            id="user-privaci"
+                            id="user-privacy"
                             value="true"
-                            class=""
-                            name="user-privaci"
+                            class="input-check"
+                            name="user-privacy"
                         />
-                        <label for="user-privacy" class="policy"></label>
-                        <span class="check-box">
-                            <svg width="10" height="8" class="svg-check">
-                                <use href="./images/icons.svg#vector"></use>
-                            </svg> </span
-                        >I accept the terms and conditions of the
-                        <a class="privacy-policy" href="">Privacy Policy</a>
+                        <label for="user-privacy" class="policy"
+                            ><span class="check-box">
+                                <svg width="10" height="8" class="svg-check">
+                                    <use href="./images/icons.svg#vector"></use>
+                                </svg>
+                            </span>
+                            I accept the terms and conditions of the
+                            <a class="privacy-policy" href=""
+                                >Privacy Policy</a
+                            ></label
+                        >
                     </div>
+
                     <button class="btn-modal" type="submit">Send</button>
                 </form>
             </div>
