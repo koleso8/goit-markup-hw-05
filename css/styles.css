@@ -675,7 +675,6 @@ button {
 
 .modal {
     opacity: 0;
-    pointer-events: none;
 
     --main-text-color: #8e8f99;
     --text: #2e2f42;
