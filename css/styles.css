@@ -820,7 +820,7 @@ button {
     border-color: #4d5ae5;
 }
 
-.privacy-box {
+.privaci-box {
     margin-bottom: 24px;
 }
 
@@ -852,7 +852,7 @@ button {
     margin-bottom: 24px;
 }
 
-.input:checked .check-box {
+.input-check:checked .check-box {
     background-color: var(--back);
     border: none;
     fill: var(--white);
