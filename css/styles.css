@@ -827,18 +827,15 @@ button {
 
 .privaci-box {
     margin-bottom: 24px;
+    position: relative;
 }
 
 .input-check {
-}
-.privacy-policy {
-    /* display: inline-block; */
-}
-.policy {
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.04em;
-    color: var(--main-text-color);
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
 }
 
 .check-box {
@@ -855,12 +852,24 @@ button {
     fill: transparent;
     margin-right: 8px;
     margin-bottom: 24px;
+
+    /* opacity: 0; */
 }
 
-.input-check:checked .check-box {
+.input-check:checked > .check-box {
     background-color: var(--back);
     border: none;
     fill: var(--white);
+}
+
+.privacy-policy {
+    /* display: inline-block; */
+}
+.policy {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: var(--main-text-color);
 }
 .form .btn-hero {
     width: 169px;
