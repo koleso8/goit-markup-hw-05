@@ -685,6 +685,7 @@ button {
 }
 
 .modal .is-open {
+    visibility: visible;
     opacity: 1;
     pointer-events: auto;
 }
