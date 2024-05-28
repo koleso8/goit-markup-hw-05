@@ -856,7 +856,7 @@ button {
 
 .input-check:checked + .policy .check-box {
     background-color: var(--back);
-
+    fill: var(--white);
     border: none;
 }
 
