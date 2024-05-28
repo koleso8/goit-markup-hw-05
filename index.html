@@ -670,7 +670,7 @@
                     Leave your contacts and we will call you back
                 </p>
 
-                <form class="form" name="username" autocomplete="on">
+                <form class="form" name="username" autocomplete="off">
                     <div class="form-box">
                         <label class="form-label" for="user-name">Name</label>
 
@@ -740,6 +740,27 @@
 
                     <div class="privaci-box">
                         <input
+                            class="input-check visually-hidden"
+                            type="checkbox"
+                            name="user-privacy"
+                            value="true"
+                            id="user-privacy"
+                        />
+                        <label class="policy" for="user-privacy">
+                            <span class="check-box">
+                                <svg class="svg-check" width="10" height="8">
+                                    <use href="./images/icons.svg#vector"></use>
+                                </svg>
+                            </span>
+                            I accept the terms and conditions of the
+                            <a class="privacy-policy" href="#"
+                                >Privacy Policy</a
+                            >
+                        </label>
+                    </div>
+
+                    <!-- <div class="privaci-box">
+                        <input
                             type="checkbox"
                             id="user-privacy"
                             value="true"
@@ -758,8 +779,8 @@
                                 >Privacy Policy</a
                             ></label
                         >
-                        <!-- __________________________________________________________________________________________________________________________________________________________________ -->
-                    </div>
+                      
+                    </div> -->
 
                     <button class="btn-modal" type="submit">Send</button>
                 </form>
