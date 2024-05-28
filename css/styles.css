@@ -825,6 +825,13 @@ button {
     border-color: #4d5ae5;
 }
 
+.comment-input::placeholder {
+    font-size: 12px;
+    line-height: 1.16667;
+    letter-spacing: 0.04em;
+    color: rgba(46, 47, 66, 0.4);
+}
+
 .privaci-box {
     margin-bottom: 24px;
     position: relative;
@@ -848,11 +855,10 @@ button {
     fill: transparent;
     margin-right: 8px;
     margin-bottom: 24px;
-    /* background-color: #31d0aa; */
 }
-.input-check:checked + .policy .check-box .svg-check {
+/* .input-check:checked + .policy .check-box .svg-check {
     fill: var(--white);
-}
+} */
 
 .input-check:checked + .policy .check-box {
     background-color: var(--back);
