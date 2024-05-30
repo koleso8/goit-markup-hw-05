@@ -683,7 +683,7 @@ button {
     --link: #4d5ae5;
 }
 
-.modal .is-open {
+.modal.is-open {
     visibility: visible;
     opacity: 1;
     pointer-events: auto;
